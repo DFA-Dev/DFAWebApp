@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DFAWebApp.API", "src\DFAWebApp.API\DFAWebApp.API.csproj", "{BC2F2103-C325-4B75-B172-DF1C8FB6D3B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DFAWebApp.Domain", "src\DFAWebApp.Domain\DFAWebApp.Domain.csproj", "{08C93BCB-F298-4337-A70A-1288E3D087FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DFAWebApp.Infrastructure", "src\DFAWebApp.Infrastructure\DFAWebApp.Infrastructure.csproj", "{E7467F30-1217-468E-94AD-9FF0D1666F07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7F20413B-4298-417C-99EA-04C53D9BE74B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6B4878E6-6184-4A6E-9508-A7E1077DD235}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DFAWebApp.Api.Tests", "tests\DFAWebApp.Api.Tests\DFAWebApp.Api.Tests.csproj", "{286CB447-C408-40ED-B356-517DAE3C013E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC2F2103-C325-4B75-B172-DF1C8FB6D3B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC2F2103-C325-4B75-B172-DF1C8FB6D3B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC2F2103-C325-4B75-B172-DF1C8FB6D3B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC2F2103-C325-4B75-B172-DF1C8FB6D3B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08C93BCB-F298-4337-A70A-1288E3D087FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C93BCB-F298-4337-A70A-1288E3D087FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08C93BCB-F298-4337-A70A-1288E3D087FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08C93BCB-F298-4337-A70A-1288E3D087FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7467F30-1217-468E-94AD-9FF0D1666F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7467F30-1217-468E-94AD-9FF0D1666F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7467F30-1217-468E-94AD-9FF0D1666F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7467F30-1217-468E-94AD-9FF0D1666F07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{286CB447-C408-40ED-B356-517DAE3C013E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286CB447-C408-40ED-B356-517DAE3C013E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286CB447-C408-40ED-B356-517DAE3C013E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286CB447-C408-40ED-B356-517DAE3C013E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{286CB447-C408-40ED-B356-517DAE3C013E} = {6B4878E6-6184-4A6E-9508-A7E1077DD235}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2678BD60-FB12-45A0-9297-8C7834420DD3}
+	EndGlobalSection
+EndGlobal
